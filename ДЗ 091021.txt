@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	/*Begin5◦
+. Дана длина ребра куба a. Найти объем куба V = a
+3 и площадь его
+поверхности S = 6·a
+2
+.
+Begin6◦
+. Даны длины ребер a, b, c прямоугольного параллелепипеда. Найти
+его объем V = a·b·c и площадь поверхности S = 2·(a·b + b·c + a·c).
+Begin7◦
+. Найти длину окружности L и площадь круга S заданного радиуса R:
+L = 2·π·R, S = π·R
+2
+.*/
+	/*Begin5 
+	int  a, V, S;
+	cout << "Input integer";
+	cin >> a;
+	V = a * a * a;
+	S = a * 6;
+	cout << "V =" << V << endl;
+	cout << "S =" << S << endl;*/
+	/*Begin 6
+	int a, b, V, S, c;
+	cout << "Input integer number 1 ";
+	cin >> a;
+	cout << "Input integer number 2 ";
+	cin >> b;
+	cout << "Input integer number 3 ";
+	cin >> c;
+	V = a * b * c;
+	S = 2 * (a * b + b * c + a * c);
+	cout << "V =" << V << endl;
+	cout << "S =" << S << endl;*/
+	int R; 
+	double S, L;
+	cout << "Input integer";
+	cin >> R;
+	S = R * R * 3.14;
+	L = R * 2 * 3.14;
+	cout << "S =" <<  S << endl; 
+	cout << "L =" <<  L << endl;
+	return 0;
+}
